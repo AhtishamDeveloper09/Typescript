@@ -1,7 +1,7 @@
 "use strict";
 // 1- Write a program that uses filter to remove all negative numbers from an array of numbers.
 let arrayOfNumbers = [-5, 16, 3, -12, 17, -9, 6, -10, 2, -8];
-let positiveNumArray = arrayOfNumbers.filter((num) => num >= 0);
+let positiveNumArray = arrayOfNumbers.filter((num) => { return num >= 0; });
 console.log("Original Array:", arrayOfNumbers);
 console.log("Array after removing all the negative numbers is:", positiveNumArray, "\n");
 // 2- Given an array of numbers [1, 2, 3, 4, 5], use the map method to create a new array where each number is multiplied by 2.

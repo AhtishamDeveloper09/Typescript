@@ -14,6 +14,7 @@ for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i] % 2 == 0) {
         console.log(arrayOfNumbers[i]);
     }
+    console.log(arrayOfNumbers[i]);
 }
 console.log();
 // 3- Implement a program that uses a loop to iterate through an array of numbers and remove all the even numbers from them and just leave the odd ones
