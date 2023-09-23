@@ -1,4 +1,4 @@
-var num: number = 55;
+var num: number = 50;
 if (num % 2 == 0) {
     console.log("Number is Even.");
 }
