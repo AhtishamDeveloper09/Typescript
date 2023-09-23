@@ -29,7 +29,7 @@ console.log("Original Array:", temperaturesInCelsius);
 console.log("New array where each temperature is converted to Fahrenheit:", temperaturesInFarenhite, "\n");
 
 // 6- Given an array of numbers [3, 6, 9, 12, 15, 18], use the map and filter methods together to create a new array containing the doubled values of odd numbers.
-let arrayOfNumbers4: number[] = [3, 6, 9, 12, 15, 18];
+let arrayOfNumbers4: number[] = [5, 6, 9, 12, 15, 18];
 let doubledValuesOfOddNumbers = arrayOfNumbers4.filter(num => num % 2 == 1).map(num => num * num);
 console.log("Original Array:", arrayOfNumbers4);
 console.log("New array containing the doubled values of odd numbers:", doubledValuesOfOddNumbers, "\n");
