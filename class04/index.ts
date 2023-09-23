@@ -14,5 +14,5 @@ var sumArrow = (num1: number, num2: number): number => num1 + num2;
 // var result: number= num1 + num2;
 // return result
 
-var sumResult: number = sumArrow(10, 30)
+var sumResult: number = sumArrow(10, 30);
 console.log("Result is:", sumResult);
