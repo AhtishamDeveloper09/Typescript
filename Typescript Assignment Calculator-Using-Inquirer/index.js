@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 const questions = [{
         name: "num1",
@@ -17,7 +18,6 @@ const questions = [{
     }
 ];
 let answers = inquirer.prompt(questions);
-console.log("Answers:", answers);
 answers
     .then((answer) => {
     switch (answer.operation) {

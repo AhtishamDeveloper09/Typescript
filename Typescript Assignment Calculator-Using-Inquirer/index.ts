@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer, { Answers, QuestionCollection } from "inquirer";
 
 const questions: QuestionCollection = [{
